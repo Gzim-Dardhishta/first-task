@@ -26,16 +26,16 @@ function SecondChallange() {
   const cardStyle = {
 
     title: {
-      position: 'relative',
-      left: '850px',
-      marginTop: '200px'
+      width: '50%',
+      marginLeft: 'auto',
+      marginTop: '100px'
     },
 
     cardPosition: {
       display: "flex",
       justifyContent: 'space-around',
-      flexWrap: "wrap",
-      width: '80%',
+      flexWrap: 'wrap',
+      width: '100%',
       margin: 'auto',
     },
 
@@ -43,11 +43,11 @@ function SecondChallange() {
       border: '1px solid lightgray',
       borderRadius: '25px',
       marginBottom: '40px',
-      height: '400px'
+      height: '400px',
+      width: '380px',
     },
 
     cardInfo: {
-      width: '380px',
       margin: '30px',
     },
 
