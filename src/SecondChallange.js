@@ -34,9 +34,7 @@ function SecondChallange() {
     cardPosition: {
       display: "flex",
       justifyContent: 'space-around',
-      flexWrap: 'wrap',
-      width: '100%',
-      margin: 'auto',
+      width: '80%',
     },
 
     cardBorder: {
