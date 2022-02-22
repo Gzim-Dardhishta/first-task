@@ -7,18 +7,17 @@
     justify-content: center;
 }
 .wrapper {
-    width: 80%;
+    width: 90%;
     font-family:"Quicksand";
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .topics {
     display: flex;
-    width: 400px;
+    width: 30%;
     justify-content: space-around;
     align-items: center;
 }
@@ -30,4 +29,88 @@
     color: rgb(53, 104, 243);
     border: 1px solid lightgray;
     border-radius: 50%;
+}
+
+/* CSS for the SecondChallange */
+
+.title {
+    text-align: center;
+}
+
+.card-position {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-border {
+    width: 30%;
+    height: 25em;
+    border: 2px solid lightgray;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+
+.card-info {
+    margin: 30px;
+}
+
+.publish-date {
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.new {
+    color: #fff;
+    padding: 5px 30px 5px 30px;
+    background-color: rgb(1, 200, 83);
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.fix {
+    color: #fff;
+    padding: 5px 30px 5px 30px;
+    background-color: rgb(41, 98, 255);
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.improvement {
+    color: #fff;
+    padding: 5px 30px 5px 30px;
+    background-color: rgb(195, 91, 255);
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.photo {
+    font-size:25px;
+    position: relative;
+    top: 5px;
+    margin-right: 25px;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.info {
+    color: #d3d3d3d3;
+    font-size: 17px;
+    margin-top: 30px;
+    height: 5em;
+}
+
+.download {
+    position: relative;
+    top: 60px;
+    color: rgb(72, 121,255);
+    padding: 20px 50px;
+    border: 1px solid rgb(72, 121,255);
+    border-radius: 30px;
+    background-color: #fff;
 }
