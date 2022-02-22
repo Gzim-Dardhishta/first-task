@@ -19,7 +19,7 @@ function FirstChallange() {
         { icon: <HiLightBulb />, title: 'Business potencial', body: 'Can the domain be used as your company address?', id: 9}
     ]);
   return (
-    <div>
+    <div className='topic'>
       <TopicsList topics = { topics } titleOfTopics = "FrirstChallange" />
     </div>
   )

@@ -17,7 +17,7 @@ function SecondChallange() {
   ]);
 
   return (
-    <div>
+    <div className='cards'>
         <UpdatesCard cards = {cards}  title = "SecondChallange"/>
     </div>
   )

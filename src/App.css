@@ -114,3 +114,20 @@
     border-radius: 30px;
     background-color: #fff;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .wrapper{
+        flex-direction: column;
+    }
+    .topics {
+        width: 100%;
+    }
+
+    .card-position {
+        flex-direction: column;
+    }
+    .card-border{
+        width: 100%;
+    }
+}
